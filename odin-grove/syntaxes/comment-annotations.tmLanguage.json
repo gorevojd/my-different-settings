@@ -1,0 +1,9 @@
+{
+  "scopeName": "odin-grove.comment-annotations",
+  "injectionSelector": "L:comment",
+  "patterns": [
+    { "name": "meta.annotation.todo.odin-grove", "match": "\\bTODO\\b" },
+    { "name": "meta.annotation.note.odin-grove", "match": "\\bNOTE\\b" },
+    { "name": "meta.annotation.important.odin-grove", "match": "\\bIMPORTANT\\b" }
+  ]
+}

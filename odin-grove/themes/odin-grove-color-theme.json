@@ -118,13 +118,27 @@
       "settings": { "foreground": "#808080", "fontStyle": "" }
     },
     {
-      "name": "Odin procedure, type, and constant declarations",
+      "name": "TODO comment label",
+      "scope": "meta.annotation.todo.odin-grove",
+      "settings": { "foreground": "#E52B2B", "fontStyle": "bold" }
+    },
+    {
+      "name": "NOTE comment label",
+      "scope": "meta.annotation.note.odin-grove",
+      "settings": { "foreground": "#008D00", "fontStyle": "bold" }
+    },
+    {
+      "name": "IMPORTANT comment label",
+      "scope": "meta.annotation.important.odin-grove",
+      "settings": { "foreground": "#E6C56F", "fontStyle": "bold" }
+    },
+    {
+      "name": "Odin procedure and type declarations",
       "scope": [
         "meta.definition.function.odin entity.name.function.odin",
-        "meta.definition.variable.odin > entity.name.type.odin",
-        "meta.definition.variable.odin > variable.other.constant.odin"
+        "meta.definition.variable.odin > entity.name.type.odin"
       ],
-      "settings": { "foreground": "#90BB90", "fontStyle": "bold italic" }
+      "settings": { "foreground": "#90BB90", "fontStyle": "bold" }
     },
     {
       "name": "Odin attributes and directives",

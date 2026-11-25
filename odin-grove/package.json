@@ -1,8 +1,8 @@
 {
   "name": "odin-grove",
   "displayName": "Odin Grove",
-  "description": "A forest-green editor with sage text, copper keywords, and bold italic Odin declarations.",
-  "version": "1.0.0",
+  "description": "A forest-green editor with sage text, copper keywords, and upright Odin declarations.",
+  "version": "1.1.4",
   "publisher": "local-themes",
   "engines": { "vscode": "^1.70.0" },
   "categories": ["Themes"],
@@ -12,6 +12,16 @@
         "label": "Odin Grove",
         "uiTheme": "vs-dark",
         "path": "./themes/odin-grove-color-theme.json"
+      }
+    ],
+    "grammars": [
+      {
+        "scopeName": "odin-grove.comment-annotations",
+        "path": "./syntaxes/comment-annotations.tmLanguage.json",
+        "injectTo": [
+          "source.odin", "source.glsl", "source.c", "source.go", "source.java",
+          "source.js", "source.js.jsx", "source.ts", "source.tsx"
+        ]
       }
     ]
   }
