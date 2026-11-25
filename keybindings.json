@@ -113,5 +113,17 @@
         "key": "shift+alt+up",
         "command": "-editor.action.copyLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+y",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && !editorReadonly",
+        "args": { "snippet": "// NOTE: $0" }
+    },
+    {
+        "key": "ctrl+alt+y",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && !editorReadonly",
+        "args": { "snippet": "// TODO: $0" }
     }
 ]
